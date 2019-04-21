@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title> CSI GECBH</title>
+<style>
+.head{ text-weight: boldness; color: #3155bc; font-size: 40px; padding-top:20px;padding-left: 400px; }
+.nav{padding-top: 30px; postion:fixed;}
+ul {list-style-type: none; margin: 0; padding: 0px; overflow: hidden; background-color: #3155bc;}
+li {float: left;}
+li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+li a:hover {background-color: white; color: #3155bc;}
+.column {float: left; padding: 10px;}
+.column.home {width: 65%; text-align:justify;}
+.column.news {width: 25%; border: 3px solid #3155bc; margin-top: 30px; margin-bottom: 50px; margin-right: 30px; margin-left: 40px;}
+.row:before {content: ""; display: block; clear: both;}
+.image{ width: 20%;background-color: white; border: 1px solid black;}
+.details {text-align: center; }
+hr{border: 1px solid  #3155bc; position:relative;}
+.foot{position: absolute; top: 1730px; font-size:20px; text-decoration:none;}
+</style>
+
+
+<body>
+<div class="head">
+<img src="csi.jpg" alt="csi logo" style="width: 7%; position: absolute; left: 300px; top: 0px; z-index:1;" >Computer society of India GECBH chapter
+</div>
+<div class="nav">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#executives">Executives</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="row">
+<div class="column home">
+<p  id="home">Computer Society of India (CSI) is the first, largest and most professionally managed association of and for IT professionals in India. CSI is a non-profit organization 
+and its members are committed to the advancement of theory and practice of Computer Engineering and Technology Systems.  The seed for the Computer Society of India (CSI) was first sown 
+in the year 1965 with a handful of IT enthusiasts who were a computer user group and felt the need to organize their activities. They also wanted to share their knowledge and exchange ideas on 
+what they felt was a fast emerging sector.<br><br>Today the purposes of the Society are scientific and educational directed towards the advancement of the theory and practice of computer science 
+& IT. CSI is celebrating its Golden Jubilee in 2015. The activities of the Computer Society of India started in the city of Trivandrum with the annual convention of Computer Society of India CSI 69 in 
+January 1969 on the theme topic 'Training in Software'.<br><br> The Society envisages scientific and educational purposes directed towards the advancement of the theory and practice of 
+computer science, computer engineering and technology, systems science and engineering, information processing and related arts and sciences. It shall endeavour to: 
+<ol type="a">
+<li> Promote interchange of information, in these disciplines and subdisciplines, amongst the specialists and between the specialists and public.</li>
+<li> Encorage and assist the professionals engaged in these fields to maintain the integrity and competence of the profession, and</li>
+<li>Foster a sense of partnership amongst the professionals engaged in these fields.</li>
+</ol>
+<br><br><br><br>Means to these ends are holding of meetings for the reading and discussing of professional papers, the publication and circulation of works of literature, science and art pertaining 
+there to and any other activities necessary, suitable and proper for the fulfilment of these objectives.</p>
+</div>
+<div class="column news">
+<h2 id="news">NEWS</h1>
+<h3 style="border: 1px dotted #3155bc">New executive committee is being selected</h3>
+<h3 style="border: 1px dotted #3155bc">An e-waste collection drive shall be conducted on March 25th,2019</h3>
+<h3 style="border: 1px dotted #3155bc">A class on Web development shall be conducted on April 1st, 2019</h3>
+<h3 style="border: 1px dotted #3155bc">An industrial vist exclusive for CSI, members shall be conducted on April 9th,2019</h3>
+</div>
+</div>
+<br><br>
+<h1 style="text-weight:bold; color:#3155bc"> Governing body members of CSI<h1>
+<hr style="top:-20px">
+<hr style="top:-30px">
+<div class="image"  id="executives">
+  <img src="athul.jpg" alt="Chairperson" style="width:100%">
+  <div class="details">
+  <p>Name Chairperson</p>
+</div>
+</div>
+
+<div class="image"  style="position: absolute; left: 300px; top: 680px; ">
+  <img src="vc.jpg" alt="Vice Chairperson" style="width:100%; position: relative;">
+  <div class="details">
+  <p>Name Vice Chairperson</p>
+  </div>
+</div>
+
+
+<div class="image" style="position: absolute; left: 600px; top: 680px; ">
+  <img src="gs.jpg" alt="General Secretary" style="width:100%">
+  <div class="details">
+  <p>Name General Secretary</p>
+  </div>
+</div>
+
+<div class="image" style="position: absolute; left: 900px; top: 680px;">
+  <img src="t.jpg" alt="Treasurer" style="width:100%">
+  <div class="details">
+  <p>Name Treasurer</p>
+  </div>
+</div>
+
+
+<h1 style="text-weight:bold; color:#3155bc; padding-top:320px" id="gallery"> Our events<h1>
+<hr style="top:-20px">
+<hr style="top:-30px">
+<div class="image" style="position: absolute; left: opx; top: 1250px;">
+  <img src="talk.jpg" alt="Event 1" style="width:100%">
+  <div class="details">
+  <p>Talk </p>
+  </div>
+</div>
+
+<div class="image" style="position: absolute; left: 300px; top: 1250px;">
+  <img src="class.jpg" alt="Event 2" style="width:100%">
+  <div class="details">
+  <p>Class </p>
+  </div>
+</div>
+
+<div class="image" style="position: absolute; left: 600px; top: 1300px;">
+  <img src="quiz.jpg" alt="Event 3" style="width:100%">
+  <div class="details">
+  <p>Quiz competition </p>
+  </div>
+</div>
+<hr style="top:450px">
+<div  class="foot">
+<a id="contact" href="https://www.facebook.com/">Follow us on facebook</a><br>
+<a href="https://www.instagram.com/?hl=en">Follow us on Instagram</a><br>
+Copyright&copy; Computer Society of India (CSI)
+</body>
+</html>
+
+
+
+
